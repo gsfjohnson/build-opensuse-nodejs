@@ -1,15 +1,7 @@
 <services>
-
-  <service name="download_url">
-    <param name="host">raw.githubusercontent.com</param>
+  <service name="download_src_package">
+    <param name="host">rpm.nodesource.com</param>
     <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/build-opensuse-nodejs/nodejs.spec</param>
+    <param name="path">/pub_7.x/el/6/SRPMS/nodejs-7.10.1-1nodesource.el6.src.rpm</param>
   </service>
-
-  <service name="download_url">
-    <param name="host">raw.githubusercontent.com</param>
-    <param name="protocol">https</param>
-    <param name="path">/gsfjohnson/build-opensuse-nodejs/node-v7.10.1.tar.xz</param>
-  </service>
-
 </services>
